@@ -127,3 +127,13 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# json file to store wandb API key
+env.json
+
+weights/
+results/
+*.ipynb
+datasets/
+output/
