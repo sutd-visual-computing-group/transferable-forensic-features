@@ -216,7 +216,7 @@ We show the $\omega$ distribution calculated over 1K ProGAN counterfeits for the
 
 <img src="./assets/omega_distribution-progan.jpg" width=50% align='left'/>
 
-
+</br>
 
 
 ## Citation
