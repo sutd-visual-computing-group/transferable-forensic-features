@@ -210,6 +210,14 @@ This is expected since all feature maps for each sample is stored. We plan to re
 We use $\beta=0$ LRP rule. More details on LRP implementation can be found at Supplementary Section A of the paper. 
 
 
+> How does the $\omega$ distribution look like?
+
+We show the $\omega$ distribution calculated over 1K ProGAN counterfeits for the ResNet-50 detector below.
+
+<img src="./assets/omega_distribution-progan.jpg" />
+
+
+
 
 ## Citation
 
