@@ -214,9 +214,10 @@ We use $\beta=0$ LRP rule. More details on LRP implementation can be found at Su
 
 We show the $\omega$ distribution calculated over 1K ProGAN counterfeits for the ResNet-50 detector below.
 
-<img src="./assets/omega_distribution-progan.jpg" width=50% align='left'/>
+<img src="./assets/omega_distribution-progan.jpg" width=50% />
 
-</br>
+<br>
+
 
 
 ## Citation
