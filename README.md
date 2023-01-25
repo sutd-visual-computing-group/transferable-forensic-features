@@ -204,10 +204,14 @@ Do note you might expect very small numerical changes when you recalculate FF-RS
 This is expected since all feature maps for each sample is stored. We plan to release a lightweight version in the future. For ease, we have released all pre-calculated FF-RS (ω) values in the `fmap_relevances/` directory for both ResNet-50 and EfficientNet-B0 detectors.
 
 
-
 > Which LRP-rule is used in this implementation?
 
 We use $\beta=0$ LRP rule. More details on LRP implementation can be found at Supplementary Section A of the paper. 
+
+
+> Did you use any pre-training methods?
+
+Yes, following Wang et al [[1]](#1), we use supervised ImageNet-1K initialization and fine-tune all the layers.
 
 
 > How does the $\omega$ distribution look like?
@@ -215,6 +219,7 @@ We use $\beta=0$ LRP rule. More details on LRP implementation can be found at Su
 We show the $\omega$ distribution calculated over 1K ProGAN counterfeits for the ResNet-50 detector below.
 
 <img src="./assets/omega_distribution-progan.jpg" width=50% />
+
 
 <br>
 
